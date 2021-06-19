@@ -1,0 +1,81 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700,300);
+.frame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  margin-top: -200px;
+  margin-left: -200px;
+  border-radius: 2px;
+  box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  background: #fff;
+  color: #fff;
+  font-family: "Open Sans", Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.book {
+  position: absolute;
+  background: url("https://images.unsplash.com/photo-1623800417590-f522665790a4");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 200px;
+  height: 280px;
+  top: 60px;
+  left: 100px;
+  border-radius: 2px 4px 4px 2px;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2), -1px 4px 4px 0 rgba(0, 0, 0, 0.3);
+}
+
+.book .title {
+  position: absolute;
+  top: 55px;
+  left: 33px;
+}
+
+.book .title h3 {
+  font-size: 36px;
+  line-height: 100%;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.book .title p {
+  font-size: 13px;
+  font-weight: 400;
+  font-style: italic;
+  padding-left: 2px;
+  padding-bottom: 10%;
+  color: #ccc;
+}
+
+.book:after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 10px;
+  top: -1px;
+  right: 25px;
+  bottom: -1px;
+  border-radius: 1px;
+  box-shadow: -1px 0px 1px 0 rgba(0, 0, 0, 0.4);
+  background: #a90329;
+  background: linear-gradient(to right, #a90329 0%, #8e0028 12%, #a90329 25%, #8e0028 37%, #a90329 50%, #8e0028 62%, #a90329 75%, #8e0028 87%, #a90329 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#a90329", endColorstr="#a90329",GradientType=1 );
+}
+
+.profile {
+  text-decoration: none;
+  font-size: 10px;
+  color: #fff;
+  padding: 0 2px;
+}
+
+.ri-github-fill {
+  font-size: 10px;
+  margin-top: 10px;
+}
